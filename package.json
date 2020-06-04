@@ -1,5 +1,5 @@
 {
-  "version": "3.0.0",
+  "version": "1.0.0",
   "name": "marek-dano-blog",
   "description": "The place where marekdano does blogging",
   "main": "n/a",
@@ -16,8 +16,8 @@
     "test:coverage": "jest --coverage --config ./jest/jest-config.js",
     "test:watch": "jest --watch --config ./jest/jest-config.js"
   },
-  "repository": "https://github.com/alxshelepenok/gatsby-starter-lumen",
-  "author": "Alexander Shelepenok <alxshelepenok@gmail.com>",
+  "repository": "https://github.com/marekdano/marekdano.com",
+  "author": "Marek Dano <marekdano@gmail.com>",
   "license": "MIT",
   "keywords": [
     "gatsby",
