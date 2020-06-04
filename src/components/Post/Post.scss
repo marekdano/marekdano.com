@@ -1,0 +1,64 @@
+@import '../../assets/scss/variables';
+@import '../../assets/scss/mixins';
+
+.post {
+  &__footer {
+    max-width: $layout-post-width;
+    margin: 0 auto;
+    padding: 0 15px;
+
+    &-text {
+      border-top: 1px solid #e6e6e6;
+      max-width: 40rem;
+      padding-top: 1.3rem;
+    }
+  }
+
+  &__comments {
+    max-width: $layout-post-width;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+
+  &__home-button {
+    display: block;
+    max-width: 90px;
+    height: $button-height;
+    padding: 0 24px;
+    line-height: $button-height;
+    text-align: center;
+    color: $color-gray;
+    border-radius: $button-border-radius;
+    background: $color-gray-bg;
+    font-size: $typographic-base-font-size;
+    font-weight: normal;
+    margin-left: auto;
+    margin-right: auto;
+    @include margin-top(1);
+
+    &:hover,
+    &:focus {
+      color: $color-base;
+    }
+  }
+}
+
+@include breakpoint-md {
+  .post {
+    &__footer {
+      padding: 0;
+    }
+
+    &__comments {
+      padding: 0;
+    }
+
+    &__home-button {
+      position: fixed;
+      max-width: auto;
+      margin: 0;
+      top: 30px;
+      left: 30px;
+    }
+  }
+}

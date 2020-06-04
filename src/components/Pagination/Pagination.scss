@@ -1,0 +1,40 @@
+@import '../../assets/scss/variables';
+@import '../../assets/scss/mixins';
+
+.pagination {
+  @include margin-top(2);
+  @include margin-bottom(2);
+  display: flex;
+  font-size: 1rem;
+  font-weight: bold;
+  color: $color-secondary;
+
+  &:hover,
+  &:focus {
+    color: $color-primary;
+  }
+
+  &__prev {
+    width: 50%;
+    text-align: left;
+
+    &-link {
+      &--disable {
+        pointer-events: none;
+        color: lighten($color-gray, 20%);
+      }
+    }
+  }
+
+  &__next {
+    width: 50%;
+    text-align: right;
+
+    &-link {
+      &--disable {
+        pointer-events: none;
+        color: lighten($color-gray, 20%);
+      }
+    }
+  }
+}
