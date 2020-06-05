@@ -2,7 +2,7 @@
 title: 'Automate build process with the build script'
 date: '2019-11-01'
 template: 'post'
-draft: true
+draft: false
 slug: 'automate-build-process-with-the-build-script'
 category: 'Coding'
 tags:
@@ -11,7 +11,7 @@ tags:
 description: 'The boring repetitive tasks can be fun when they are automated. Check how we automated our build process'
 socialImage: ''
 # published: false
-cover_image: ''
+# cover_image: ''
 # canonical_url: 'https://marekdano.com/blog/automate-build-process-with-the-build-script/'
 ---
 

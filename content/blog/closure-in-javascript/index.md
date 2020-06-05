@@ -8,10 +8,10 @@ category: 'Coding'
 tags:
   - 'Javascript fundamentals'
   - 'Interviewing'
-description: ''
+description: 'Javascript closure described in the simple way.'
 socialImage: ''
 # published: false
-cover_image: ''
+# cover_image: ''
 # canonical_url: 'https://marekdano.com/blog/closure-in-javascript/'
 ---
 

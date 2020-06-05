@@ -2,7 +2,7 @@
 title: 'One configuration for multiple servers'
 date: '2019-09-01'
 template: 'post'
-draft: true
+draft: false
 slug: 'one-configuration-for-multiple-servers'
 category: 'Coding'
 tags:
@@ -12,7 +12,7 @@ tags:
 description: 'Check how we deployed the same application onto multiple servers with the simple configuration file'
 socialImage: ''
 # published: false
-cover_image:
+# cover_image:
 # canonical_url: https://marekdano.com/blog/one-configuration-for-multiple-servers/
 ---
 
@@ -42,7 +42,7 @@ The similar file that we have is like:
 Where
 
 - **authenticationType** can be **azure** or **windows** depending on where the app is deployed - options are to Azure or IIS on Windows server.
-- **apiUrl** and **singlar.url** is the URL of the required web API.
+- **apiUrl** and **signalr.url** is the URL of the required web API.
 
 ## Our implementation
 
