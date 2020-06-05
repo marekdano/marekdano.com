@@ -1,14 +1,14 @@
 'use strict';
 
 module.exports = {
-  url: 'https://lumen.netlify.com',
+  url: 'https://marekdano.netlify.com',
   pathPrefix: '/',
   title: 'Blog by Marek Dano',
   subtitle: 'Software Engineer - mainly JS/TS who loves learning and sharing.',
   copyright: '',
   disqusShortname: '',
-  postsPerPage: 2,
-  googleAnalyticsId: 'UA-73379983-2',
+  postsPerPage: 6,
+  googleAnalyticsId: 'UA-34192408-1',
   useKatex: false,
   menu: [
     // {
@@ -31,10 +31,7 @@ module.exports = {
   author: {
     name: 'Marek Dano',
     photo: '/profile_picture.jpg',
-    bio: [
-      'Software Engineer - mainly JS/TS who loves learning and sharing.',
-      'Join my journey'
-    ],
+    bio: ['Software Engineer - mainly JS/TS who loves learning and sharing.', 'Join my journey'],
     contacts: {
       email: '',
       facebook: '#',
@@ -51,6 +48,6 @@ module.exports = {
       codepen: '',
       youtube: '',
       soundcloud: '',
-    }
-  }
+    },
+  },
 };
