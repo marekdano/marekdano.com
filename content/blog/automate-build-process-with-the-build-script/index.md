@@ -26,7 +26,7 @@ The process of building applications for production usually involves executing s
 
 As I already mentioned we have the angular application. We keep the configuration settings of our application in the **config.json** file. If you want to find out more about how we use the configuration file in our app, please check [here](https://marekdano.com/blog/one-configuration-for-multiple-servers/).
 
-To update the **config.json** file for production we decided to use the `jq` tool which had to be installed on a build machine. The instruction on how to install it, can be found [here](https://marekdano.com/blog/one-configuration-for-multiple-servers"). We build the application on OS X, so we installed it through `brew`, like
+To update the **config.json** file for production we decided to use the [`jq` tool](https://stedolan.github.io/jq/) which had to be installed on a build machine. We build the application on OS X, so we installed it through `brew`, like
 
 ```
 brew install jq

@@ -1,9 +1,9 @@
 ---
-slug: 'closure-in-javascript'
 title: 'Closure in Javascript'
 date: '2020-05-18'
 template: 'post'
-draft: true
+draft: false
+slug: 'closure-in-javascript'
 category: 'Coding'
 tags:
   - 'Javascript fundamentals'
