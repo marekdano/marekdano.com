@@ -30,7 +30,7 @@ module.exports = {
   ],
   author: {
     name: 'Marek Dano',
-    photo: '/profile_picture.jpg',
+    photo: '/profile_picture.webp',
     bio: ['Software Engineer - mainly JS/TS who loves learning and sharing.', 'Join my journey'],
     contacts: {
       email: '',
