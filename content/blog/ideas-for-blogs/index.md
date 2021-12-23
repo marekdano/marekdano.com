@@ -22,3 +22,10 @@ socialImage: ''
 5. two counter component implement in react with simple state and react with using redux
 
 6. Write about experience on Swrve's interview process as a best interview experience
+
+7. Write about husky, linting
+
+   resources:
+   
+   - https://blog.whereisthemouse.com/build-a-robust-react-app-with-husky-pre-commit-hooks-and-github-actions
+   - https://www.youtube.com/colbz/search?query=husky
